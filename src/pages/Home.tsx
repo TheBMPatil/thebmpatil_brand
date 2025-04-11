@@ -80,7 +80,7 @@ const Home = () => {
   >
     Explore Portfolio
   </a>
-</div>
+
           <Link 
             to="/courses"
             className="bg-[#1B1B1B] text-white px-6 py-3 rounded-2xl shadow hover:bg-[#333] transform hover:scale-105 transition-all duration-200"
