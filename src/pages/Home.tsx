@@ -72,12 +72,15 @@ const Home = () => {
           Crafting clean code, impactful content, and creative solutions.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link 
-            to="/portfolio"
-            className="bg-[#E9552E] text-white px-6 py-3 rounded-2xl shadow hover:bg-[#cf482a] transform hover:scale-105 transition-all duration-200"
-          >
-            Explore Portfolio
-          </Link>
+  <a 
+    href="https://thebmpatil.co.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#E9552E] text-white px-6 py-3 rounded-2xl shadow hover:bg-[#cf482a] transform hover:scale-105 transition-all duration-200"
+  >
+    Explore Portfolio
+  </a>
+
           <Link 
             to="/courses"
             className="bg-[#1B1B1B] text-white px-6 py-3 rounded-2xl shadow hover:bg-[#333] transform hover:scale-105 transition-all duration-200"
